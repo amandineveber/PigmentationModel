@@ -5,12 +5,19 @@ Python code to simulate the stochastic population model introduced and used in t
 Inputs of the function model_dim2_2locus are the following:
 
 **family=** dataframe with 7 columns, representing the entire population, with each row corresponding to an individual: 
+
     **Locus_1:** determines the version of the pigmentation gene in the individual (AA, Aa, or aa).
+    
     **Locus_2:** sex of the individual (XX for females and XY for males).
+    
     **Pigmentation:** pigmentation of the individual.
+    
     **X:** first coordinate of the individual in the geographical span of the population.
+    
     **Y:** second coordinate of the individual in the geographical span of the population.
+    
     **Birth:** date of birth of the individual.
+    
     **Death:** date of death of the individual, if the value is -1 then the individual is alive.
 
 **C_delta_delta=** positive constant bounding the individual reproduction rate
